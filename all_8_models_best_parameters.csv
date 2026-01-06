@@ -1,0 +1,11 @@
+Model,Best Parameters,CV R²,Test R²,Test MAE,Best Model
+Random Forest,"{'max_depth': 15, 'min_samples_split': 10, 'n_estimators': 100}",0.4385,0.8824,174.2,"RandomForestRegressor(max_depth=15, min_samples_split=10, n_jobs=1,
+                      random_state=42)"
+Gradient Boosting,"{'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 50}",0.5344,0.8383,230.0,"GradientBoostingRegressor(learning_rate=0.05, max_depth=5, n_estimators=50,
+                          random_state=42)"
+Lasso Regression,{'alpha': 10},0.3524,0.8126,287.3,"Lasso(alpha=10, max_iter=5000, random_state=42)"
+Ridge Regression,"{'alpha': 100, 'solver': 'svd'}",0.5193,0.8028,295.6,"Ridge(alpha=100, random_state=42, solver='svd')"
+Decision Tree,"{'max_depth': 10, 'min_samples_leaf': 1, 'min_samples_split': 5}",0.4862,0.8003,224.6,"DecisionTreeRegressor(max_depth=10, min_samples_split=5, random_state=42)"
+KNN,"{'n_neighbors': 5, 'p': 1, 'weights': 'distance'}",0.4463,0.779,264.2,"KNeighborsRegressor(n_jobs=1, p=1, weights='distance')"
+SVR,"{'C': 100, 'epsilon': 0.01, 'gamma': 0.01}",0.1969,0.6992,344.5,"SVR(C=100, epsilon=0.01, gamma=0.01)"
+Linear Regression,"{'fit_intercept': True, 'positive': True}",0.3465,0.6465,415.3,LinearRegression(positive=True)
