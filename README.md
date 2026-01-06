@@ -1,5 +1,4 @@
-# About-expressway-
-Short-Term Expressway Traffic Flow Prediction
+# About-expressway-Short-Term Expressway Traffic Flow Prediction
 📋 Project Overview
 This research project develops and evaluates a comprehensive data-driven framework for short-term traffic flow prediction on expressways by integrating multi-source heterogeneous data. The study addresses the critical challenge of accurate traffic forecasting, which is essential for intelligent transportation systems, congestion management, and travel safety enhancement.
 
